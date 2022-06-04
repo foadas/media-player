@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<StackPane prefHeight="433.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MediaController">
+   <children>
+      <MediaView fx:id="mediaView" fitHeight="300.0" fitWidth="690.0" focusTraversable="true" StackPane.alignment="CENTER">
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin></MediaView>
+      <VBox fx:id="parent" alignment="BOTTOM_CENTER" maxHeight="50.0" spacing="7.0" StackPane.alignment="BOTTOM_CENTER">
+         <children>
+            <Slider fx:id="timeSlider" cacheShape="false" centerShape="false" focusTraversable="false" minWidth="600.0" scaleShape="false" />
+            <HBox fx:id="h" alignment="BOTTOM_CENTER" prefHeight="0.0" prefWidth="690.0" spacing="900.0">
+               <children>
+                  <Label fx:id="time" prefHeight="17.0" prefWidth="84.0" textFill="#fcfcfc" />
+                  <HBox spacing="5.0">
+                     <children>
+                        <Label fx:id="remainedTime" textFill="WHITE" />
+                        <Separator fx:id="line" maxHeight="20.0" orientation="VERTICAL" prefHeight="20.0" prefWidth="0.0" rotate="-25.2" visible="false" />
+                        <Label fx:id="currentTime" textFill="WHITE" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="35.0" prefWidth="583.0" spacing="10.0" stylesheets="@ButtonStyle.css">
+               <children>
+                  <Button fx:id="fileSelect" mnemonicParsing="false" prefHeight="37.0" prefWidth="59.0" />
+                  <Button fx:id="previous" mnemonicParsing="false" prefHeight="47.0" prefWidth="40.0" />
+                  <Button fx:id="backward" mnemonicParsing="false" prefHeight="43.0" prefWidth="37.0" />
+                  <Button fx:id="stop" mnemonicParsing="false" prefHeight="45.0" prefWidth="45.0" />
+                  <Button fx:id="pause" mnemonicParsing="false" prefHeight="44.0" prefWidth="39.0">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Button>
+                  <Button fx:id="forward" mnemonicParsing="false" prefHeight="71.0" prefWidth="38.0" />
+                  <Button fx:id="next" mnemonicParsing="false" prefHeight="46.0" prefWidth="39.0" />
+                  <Button fx:id="playList" mnemonicParsing="false" prefHeight="34.0" prefWidth="48.0" />
+                  <Button fx:id="auto" mnemonicParsing="false" prefHeight="43.0" prefWidth="41.0" />
+                  <Label fx:id="volumePercent" alignment="CENTER" prefHeight="29.0" prefWidth="48.0" textFill="WHITE">
+                     <HBox.margin>
+                        <Insets bottom="3.0" left="30.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Slider fx:id="volume" focusTraversable="false">
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Slider>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" left="100.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets left="40.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <StackPane.margin>
+            <Insets />
+         </StackPane.margin>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </VBox>
+   </children>
+</StackPane>

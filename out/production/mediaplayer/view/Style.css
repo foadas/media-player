@@ -1,0 +1,6 @@
+#parent{
+    -fx-opacity: 0;
+}
+#parent:hover{
+    -fx-opacity: 1;
+}

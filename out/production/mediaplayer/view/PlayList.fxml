@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="PlayListParent" alignment="BOTTOM_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="450.0" stylesheets="@List.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PlayListController">
+   <children>
+      <VBox fx:id="mediaBox" prefHeight="358.0" prefWidth="600.0" VBox.vgrow="ALWAYS" />
+      <HBox alignment="BOTTOM_CENTER" prefHeight="38.0" prefWidth="207.0" spacing="20.0">
+         <children>
+            <Button fx:id="add" mnemonicParsing="false" />
+            <Button fx:id="delete" mnemonicParsing="false" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+   </children>
+</VBox>

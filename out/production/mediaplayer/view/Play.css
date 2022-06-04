@@ -1,0 +1,7 @@
+#pause{
+    -fx-background-image: url("../resource/pause.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}

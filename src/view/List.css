@@ -1,0 +1,17 @@
+#PlayListParent{
+    -fx-background-color:grey;
+}
+#add{
+    -fx-background-image: url("../resource/add.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#delete{
+    -fx-background-image: url("../resource/remove.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}

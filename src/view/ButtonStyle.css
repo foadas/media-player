@@ -1,0 +1,67 @@
+#stop{
+    -fx-background-image: url("../resource/stop.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+    -fx-opacity: 1;
+}
+#pause{
+    -fx-background-image: url("../resource/play.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#next{
+    -fx-background-image: url("../resource/next.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#previous{
+    -fx-background-image: url("../resource/prev.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#forward{
+    -fx-background-image: url("../resource/+30.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#backward{
+    -fx-background-image: url("../resource/-30.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#fileSelect{
+    -fx-background-image: url("../resource/file.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#auto{
+    -fx-background-image: url("../resource/auto.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#playList{
+    -fx-background-image: url("../resource/playlist.png");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 20 20;
+    -fx-background-position: center;
+    -fx-background-color: transparent;
+}
+#timeSlider{
+    -fx-background-image: url("../resource/playlist.png") ;
+}
